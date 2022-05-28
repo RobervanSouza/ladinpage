@@ -1,5 +1,7 @@
-let message= "";
 require("dotenv").config();
+
+let message= "";
+
 const express = require('express');//cria variável express, o require vai na pasta node modules procura a pasta express e traz tudo que ela tem ali dentro
 const path = require("path");//importando uma lib do proprio express chamada path
 const app = express();//cria a const app que é a aplicação e chama todas as funções do express atrasvés desse app
