@@ -27,4 +27,4 @@ app.post('/subscription', (req, res) => {
     res.redirect("/");
 });
 
-app.listen(3000, () => console.log(`Servidor rodando em http://localhost:${port}`));//ouvindo a porta 3000, rodando nessa porta
+app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));//ouvindo a porta 3000, rodando nessa porta
